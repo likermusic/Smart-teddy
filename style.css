@@ -189,3 +189,91 @@ header .actions span {
 .card2 .card-left {
   margin-left: 180px;
 }
+
+.offer .wrapper {
+  background-color: rgba(19, 176, 177, 1);
+  border-radius: 20px;
+  color: #fff;
+  padding: 45px 103px;
+}
+.offer-left {
+  width: 484px;
+  display: inline-block;
+}
+.offer-left h3 {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.offer a {
+  background-color: rgba(255, 133, 67, 1);
+  display: inline-block;
+  padding: 17px 124px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-left: 80px;
+  vertical-align: 30px;
+}
+
+.fairytales .wrap {
+  /* background-color: blue; */
+  padding: 20px;
+  overflow-y: scroll;
+}
+.fairytales {
+  margin-bottom: 300px;
+}
+.fairytales .wrapper {
+  width: 140%;
+  /* background-color: red; */
+  position: relative;
+  left: -50px;
+}
+.fairytales-card {
+  display: inline-block;
+  margin-right: 15px;
+  border-radius: 10px;
+  width: 250px;
+  height: 290px;
+}
+
+.fairytales-card:nth-child(1) {
+  background-color: aqua;
+}
+.fairytales-card:nth-child(2) {
+  background-color: violet;
+}
+.fairytales-card:nth-child(3) {
+  background-color: brown;
+}
+.fairytales-card:nth-child(4) {
+  background-color: yellow;
+}
+.fairytales-card:nth-child(5) {
+  background-color: seagreen;
+}
+.description {
+  margin-bottom: 100px;
+}
+.description h3 {
+  display: inline-block;
+  font-size: 40px;
+  width: 400px;
+}
+.description .color {
+  color: rgba(117, 181, 200, 1);
+  position: relative;
+}
+
+.description .border {
+  background-color: black;
+  display: block;
+  height: 20px;
+  width: 260px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
