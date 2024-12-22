@@ -18,7 +18,7 @@ header li {
 
 .container {
   border: 2px solid blue;
-  width: 1112px;
+  max-width: 1112px;
   margin: 0 auto;
 }
 
@@ -79,8 +79,10 @@ header .actions span {
 }
 
 .hero-left {
-  width: 493px;
+  width: 580px;
   vertical-align: 95px;
+  position: relative;
+  z-index: 1;
 }
 .hero-left h1 {
   color: #fff;
@@ -114,13 +116,76 @@ header .actions span {
 }
 .hero-right {
   position: relative;
+  left: -70px;
 }
 .hero-right img:first-child {
-  width: 600px;
+  width: 520px;
 }
 .hero-right img:last-child {
   width: 230px;
   position: absolute;
   right: 0px;
   bottom: -20px;
+}
+
+.tutorial {
+  padding: 82px 0;
+}
+.title {
+  text-align: center;
+}
+.title h2 {
+  font-size: 40px;
+}
+.title h2 span {
+  color: rgba(117, 181, 200, 1);
+}
+.title p {
+  width: 650px;
+  display: inline-block;
+  margin: 11px 0 37px;
+}
+
+.tutorial .card-left {
+  position: relative;
+  display: inline-block;
+}
+
+.tutorial .card-left img:last-child {
+  position: absolute;
+  bottom: -50px;
+  right: -75px;
+}
+
+.tutorial .card-right {
+  display: inline-block;
+  vertical-align: 150px;
+  font-size: 40px;
+  width: 435px;
+  margin-left: 180px;
+  color: rgba(102, 69, 53, 1);
+}
+
+.card-left::before {
+  content: "Easy to control!";
+  position: absolute;
+  top: 50px;
+  right: -100px;
+  width: 140px;
+  font-size: 19.81px;
+  /* height: 30px; */
+  padding: 24px 20px;
+  border-radius: 7.59px 7.59px 7.59px 0;
+  background-color: rgba(240, 240, 238, 1);
+  line-height: 27.02px;
+}
+
+.card2 {
+  margin-top: 77px;
+}
+.card2 .card-right {
+  margin-left: 0;
+}
+.card2 .card-left {
+  margin-left: 180px;
 }
