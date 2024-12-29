@@ -22,6 +22,11 @@ header li {
   margin: 0 auto;
 }
 
+.container-small {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 header .logo {
   margin-right: 30px;
 }
@@ -255,19 +260,22 @@ header .actions span {
   background-color: seagreen;
 }
 .description {
+  padding: 60px 0;
   margin-bottom: 100px;
 }
 .description h3 {
   display: inline-block;
   font-size: 40px;
   width: 400px;
+  vertical-align: 120px;
+  margin-left: 100px;
 }
 .description .color {
   color: rgba(117, 181, 200, 1);
   position: relative;
 }
 
-.description .border {
+/* .description .border {
   background-color: black;
   display: block;
   height: 20px;
@@ -276,4 +284,59 @@ header .actions span {
   position: absolute;
   bottom: 0;
   right: 0;
+} */
+
+/* кривая svg*/
+.description .color svg {
+  /* background-color: red; */
+  position: absolute;
+  bottom: -10px;
+  left: 80px;
+}
+
+/* кривая clip-path */
+/* .description .color::after {
+  background-color: red;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 70px;
+  width: 270px;
+  height: 10px; 
+  background-color: black; 
+  clip-path: path("M0,10 C0,10 75,5 290,0");
+} */
+
+.battery {
+  padding: 28px 0;
+  text-align: center;
+}
+
+.battery .circle {
+  background-color: lightslategrey;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+}
+
+.battery svg {
+  color: white;
+  width: 100px;
+  height: 54px;
+  display: block;
+  margin: 20px auto 5px;
+}
+.battery label {
+  color: #fff;
+  font-size: 21px;
+  display: block;
+  margin: 0 auto;
+}
+
+.battery h4 {
+  font-size: 32px;
+  width: 250px;
+  margin: 20px auto 0;
+  line-height: 50px;
 }
