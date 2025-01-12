@@ -340,3 +340,79 @@ header .actions span {
   margin: 20px auto 0;
   line-height: 50px;
 }
+
+.money-back-wrapper {
+  background-color: rgba(115, 114, 189, 1);
+  border-radius: 20px;
+  color: #fff;
+  padding: 44px 73px 26px;
+  position: relative;
+}
+
+.money-back-left {
+  display: inline-block;
+  width: 450px;
+}
+.money-back-left h3 {
+  font-size: 40px;
+}
+.money-back-left p {
+  font-size: 18px;
+  margin: 14px 0 18px;
+}
+
+.money-back-left a {
+  color: #fff;
+  border-radius: 30px;
+  background-color: rgba(255, 133, 67, 1);
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 17px 124px;
+}
+
+.money-back-left a {
+  position: relative;
+  overflow: hidden;
+}
+.money-back-left a::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -40px;
+  width: 30px;
+  height: 80px;
+  background-color: #fff;
+  filter: blur(20px);
+  transform: rotate(25deg);
+  transition: 0.5s;
+}
+
+.money-back-left a:hover:after {
+  transform: translateX(350px) rotate(25deg);
+}
+
+.money-back-right {
+  border: 2px solid red;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.money-back-right img {
+  position: absolute;
+}
+
+.money-back-right img:nth-child(1) {
+  top: -84px;
+}
+.money-back-right img:nth-child(2) {
+  top: 61px;
+  left: 160px;
+}
+.money-back-wrapper > img {
+  position: absolute;
+  top: 60px;
+  left: 500px;
+  /* transform: translateX(80px); */
+}
