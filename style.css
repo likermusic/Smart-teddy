@@ -416,3 +416,27 @@ header .actions span {
   left: 500px;
   /* transform: translateX(80px); */
 }
+
+footer {
+  background-color: rgba(77, 15, 15, 0.563);
+  color: #fff;
+}
+.footer-top {
+  border: 1px solid red;
+}
+
+.footer-top > *,
+footer nav ul {
+  margin-right: 90px;
+  display: inline-block;
+  border: 2px solid yellow;
+  list-style: none;
+}
+
+footer .logo {
+  margin-right: 0;
+}
+
+footer .info {
+  width: 250px;
+}
